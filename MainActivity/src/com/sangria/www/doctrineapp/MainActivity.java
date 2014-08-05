@@ -12,6 +12,7 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -19,12 +20,7 @@ import android.widget.TextView;
 
 public class MainActivity extends FragmentActivity implements ActionBar.TabListener {
 	
-    /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide fragments for each of the
-     * three primary sections of the app. We use a {@link android.support.v4.app.FragmentPagerAdapter}
-     * derivative, which will keep every loaded fragment in memory. If this becomes too memory
-     * intensive, it may be best to switch to a {@link android.support.v4.app.FragmentStatePagerAdapter}.
-     */
+  
     AppSectionsPagerAdapter mAppSectionsPagerAdapter;
 
     /**
@@ -79,11 +75,40 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     }
     
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu items for use in the action bar
+        //Inflate the menu items for use in the action bar
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main_activity_actions, menu);
         return super.onCreateOptionsMenu(menu);
     }
+    
+    public boolean onOptionsItemSelected(MenuItem item) {
+    	// The action bar home/up action should open or close the drawer.
+    	// ActionBarDrawerToggle will take care of this.
+    	// Handle action buttons
+    	int position;
+
+    	switch(item.getItemId()) {
+    	
+    	case R.id.menu_home:
+
+    		position = 0;
+
+    		mViewPager.setCurrentItem(position);
+
+    		return true;
+
+    	default:
+    		position = 0;
+
+    		mViewPager.setCurrentItem(position);
+    		
+    		return true;
+    		
+    	}
+    	
+    }
+    			
+    			
     
     public void sendEmail(View view){
     	
@@ -167,19 +192,19 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         public CharSequence getPageTitle(int position) {
         	switch(position) {
         		case 0:
-        			return "Home";
+        			return getString(R.string.section_1_title);
         		case 1:
-        			return "The Doctrine";
+        			return getString(R.string.section_2_title);
         		case 2:
-        			return "Upcoming Lectures";
+        			return getString(R.string.section_3_title);
         		case 3:
-        			return "Dr. Falijah Hume";
+        			return getString(R.string.section_4_title);
         		case 4:
-        			return "Father Max Samberg";
+        			return getString(R.string.section_5_title);
         		case 5:
-        			return "Don Bergston";
+        			return getString(R.string.section_6_title);
         		default:
-        			return "Ask Us";
+        			return getString(R.string.section_7_title);
         				
         			
         	}

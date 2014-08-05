@@ -18,6 +18,14 @@
     <string name="app_name">The Sangria Doctrine</string>
 
     <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    
+    <string name="section_1_title">Home</string>
+    <string name="section_2_title">The Doctrine</string>
+    <string name="section_3_title">Upcoming Lectures</string>
+    <string name="section_4_title">Dr. Falijah Hume</string>
+    <string name="section_5_title">Father Max Samberg</string>
+    <string name="section_6_title">Don Bergston, CA</string>
+    <string name="section_7_title">Email Us</string>
 
     
     <string name="home_title">The Sangria Doctrine</string>
