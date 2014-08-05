@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menu_home"
+          android:title="@string/home_title"
+          android:showAsAction="never" />
+    
+    <item android:id="@+id/menu_doctrine"
+          android:title="@string/doctrine_title"
+          android:showAsAction="never" />
+    
+    <item android:id="@+id/menu_upcoming"
+          android:title="@string/upcoming_title"
+          android:showAsAction="never" />
+    
+    <item android:id="@+id/menu_hume"
+          android:title="@string/hume_title"
+          android:showAsAction="never" />
+    
+    <item android:id="@+id/menu_samberg"
+          android:title="@string/samberg_title"
+          android:showAsAction="never" />
+    
+    <item android:id="@+id/menu_bergston"
+          android:title="@string/bergston_title"
+          android:showAsAction="never" />
+</menu>

@@ -1,0 +1,91 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">The Sangria Doctrine</string>
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+
+    
+    <string name="home_title">The Sangria Doctrine</string>
+    <string name="home_main_text">\"The Home Of The World-Finalist Self-Health Lecture Series\"</string>
+    <string name="main_image_text">Sangria</string>
+    
+     <string name="doctrine_title">The Doctrine</string>
+    <string name="doctrine_main_text">\"Let me tell you a story\"\n\n
+        Falijah Hume leans back in his tweed armchair.\n\n
+        \"It was the early aughts and Black Box Wines was sweeping the nation.  
+        Never before had there been a mass market premium box wine.  My wife 
+        and I had just returned from a seven month sabbatical in Berlin.  
+        The private elevator to our condo was broken so we had to walk down the 
+        hall for the first month back in the states.  Box wine was simply convenient 
+        to carry!\"\n\n
+        Sniffles purrs while sitting in the sun atop a wild stack of books.  Sniffles 
+        has grey fur that appears to be golden in the evening sun.  Sniffles is Dr. 
+        Hume’s cat, or as he calls her with a chuckle, \“my administrative assistant\”.\n\n
+        \"The box wine was actively damaging our sensitive palettes.  I don’t know, it was 
+        like we could taste the plastic.  We hadn’t yet been to the grocery store so we had 
+        no fresh fruit.  I turned to my wife and I said ‘Look around us.  I bet we could find 
+        some way to turn what we have into Sangria’.  So that’s what we did.  We looked around 
+        the apartment in search of ingredients for Sangria.\"\n\n
+        \"You have to keep an open mind when trying to make Sangria.  Ask yourself about every 
+        item you grab: ‘Could this be Sangria?’\”\n\n
+		Sniffles jumps down onto Dr. Hume’s lap.\n\n
+		\"The answers may surprise you.\'\"\n\n
+
+        </string>
+        
+    <string name="hume_title">Dr. Falijah Hume MeHD</string>
+    <string name="hume_first_text">Dr. Hume emigrated from Texas in the early 90s and made the 
+        eastern United States his home.  Assimilation into American culture was hard for him and 
+        made worse by his Anosmia, a rare disorder resulting in the inability to smell.</string>
+    <string name="hume_second_text">\"People always tell me that when you lose a sense, another 
+        becomes heightened. That must be why I have such a keen sense of wonder.\"</string>
+    <string name="hume_third_text">Following his patriation to the United States, Dr. Hume developed 
+        The Sangria Doctrine.</string>
+        
+    <string name="samberg_title">Father Max Samberg</string>
+    <string name="samberg_first_text">Author of Hummus for the Homeless, Father Samberg has traveled 
+        the world sharing his insight.</string>
+    <string name="samberg_second_text">\"The convective currents in steeping tea are life energy.  
+        You need to absorb that energy into your life.  You need to drink it in by surrounding yourself 
+        with mugs of steeping tea.\"</string>
+    <string name="samberg_third_text">Father Samberg infuses his teachings with a unique blend of god-proven 
+        perspectives.</string>
+        
+    <string name="bergston_title">Don Bergston, Certified Artisan</string>
+    <string name="bergston_first_text">Four-time American artist, Don Bergston has crafted his techniques with
+        a rigor undue for most artforms</string>
+    <string name="bergston_second_text">\"If you never try, you can never fail. If you give up, you can never 
+        achieve your goals. So I say, \'Don\'t try or give up. Succeeding the first time never fails.\'\"</string>
+    <string name="bergston_third_text">Don Bergston was the first in a series of Certified Artisans to endorse
+        The Sangria Doctrine</string>
+        
+    <string name="bio_title">Impressive Title</string>
+    <string name="bio_first_text">Impressive Feat</string>
+    <string name="bio_second_text">Impressive Quote</string>
+    <string name="bio_third_text">Impressive Fact</string>
+    
+        
+    <string name="upcoming_title">Upcoming Lectures</string>
+    
+    <string name="ask_title">Your Friends Of The Sangria Doctrine Are Delighted To Answer Your Questions</string>
+    
+    <string name="ask_button_text">Send us an email!</string>
+    
+    
+    
+</resources>

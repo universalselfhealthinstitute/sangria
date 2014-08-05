@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_title_text">#000000</color>
+    <color name="main_title_back">#ffffff</color>
+    <color name="tab_selected">#ffeeee</color>
+    <color name="tab_unselected">#ffffff</color>
+</resources>
