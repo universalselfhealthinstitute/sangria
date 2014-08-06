@@ -20,9 +20,10 @@ public final class R {
         public static final int actionbar_tab_indicator=0x7f020000;
         public static final int bergston=0x7f020001;
         public static final int hume=0x7f020002;
-        public static final int samberg=0x7f020003;
-        public static final int sangria=0x7f020004;
-        public static final int upcoming_lecture=0x7f020005;
+        public static final int ic_sangria=0x7f020003;
+        public static final int samberg=0x7f020004;
+        public static final int sangria=0x7f020005;
+        public static final int upcoming_lecture=0x7f020006;
     }
     public static final class id {
         public static final int ask_button=0x7f080007;
